@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.caja{
+    border-radius: 5px;
+}
+
+.padre{
+    display: grid;
+    gap:10px;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    grid-template-areas: 
+    'uno tres cinco cinco'
+    'uno cuatro seis siete'
+    'dos cuatro ocho ocho';
+}
+
+.uno{
+  grid-area: uno;
+  background-image: url('https://images.pexels.com/photos/14723916/pexels-photo-14723916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+
+.dos{
+  grid-area: dos;
+  background-image: url('https://images.pexels.com/photos/15085100/pexels-photo-15085100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+
+.tres{
+  grid-area: tres;
+  background-image: url('https://images.pexels.com/photos/14911463/pexels-photo-14911463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+.cuatro{
+  grid-area: cuatro;
+  background-image: url('https://images.pexels.com/photos/5614616/pexels-photo-5614616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+.cinco{
+  grid-area: cinco;
+  background-image: url('https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+.seis{
+  grid-area: seis;
+  background-image: url('https://images.pexels.com/photos/5326909/pexels-photo-5326909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+.siete{
+  grid-area: siete;
+  background-image: url('https://images.pexels.com/photos/6468238/pexels-photo-6468238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+.ocho{
+  grid-area: ocho;
+  background-image: url('https://images.pexels.com/photos/6510356/pexels-photo-6510356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover;
+}
+
